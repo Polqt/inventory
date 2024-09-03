@@ -1,3 +1,7 @@
+<?php 
+    include "../connection.php"
+?>
+
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -13,18 +17,24 @@
     <body>
         <div class="container">
             <div class="box">
-                <img src="../public/images/wave-cat.png" alt="waving cat" width="200">
-                <h2>Welcome Back!</h2>
-                <p>Don't have an account yet? <a href="./register.php">Sign up</a></p>
-                <form action="post">
-                    <input type="email" name="email" autocomplete="off" placeholder="Email">
-                    <input type="password" name="password" autocomplete="new-password" placeholder="Password">
-                    <button type="submit">Sign in</button>
+                <img src="../public/images/nyan-cat.gif" alt="waving cat" width="250">
+                <h1>Welcome Back!</h1>
+                <p>Don't have an account yet? <a href="./register.php" class="link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Sign up</a></p>
+                <form action="" method="post">
+                    <div class="form-floating">
+                        <input class="form-control" id="floatingEmail" type="email" name="email" autocomplete="off" placeholder="Email">
+                        <label for="floatingEmail">Email</label>
+                    </div>
+                    <div class="form-floating">
+                        <input class="form-control" id="floatingPassword" type="password" name="password" autocomplete="new-password" placeholder="Password">
+                        <label for="floatingPassword">Password</label>       
+                    </div>
+                    <button type="submit" name="submit-btn" id="submit-btn" class="btn btn-primary" onclick="redirectLink()">Sign in</button>
                 </form>
-                <span>Forgot your password?</span>
+                <span><a href="../views/forgot-password.php" class="link-dark link-offset-2 link-primary-hover link-underline-opacity-0 link-underline-opacity-100-hover">Forgot your password?</a></span>
             </div>
         </div>
 
-        <script src=""></script>
+        <script src="../script.js"></script>
     </body>
 </html>
