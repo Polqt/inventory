@@ -1,5 +1,5 @@
 <?php 
-    include "../connection.php"
+    require "../backend/connection.php"
 ?>
 
 <html lang="en">
@@ -25,7 +25,7 @@
                         <input class="form-control" id="floatingEmail" type="email" name="email" autocomplete="off" placeholder="Email">
                         <label for="floatingEmail">Email</label>
                     </div>
-                    <div class="form-floating">
+                    <div class="form-floating mb-2">
                         <input class="form-control" id="floatingPassword" type="password" name="password" autocomplete="new-password" placeholder="Password">
                         <label for="floatingPassword">Password</label>       
                     </div>

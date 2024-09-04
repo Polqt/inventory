@@ -2,8 +2,8 @@
 https://dribbble.com/shots/23424744-Login-Page
 https://dribbble.com/shots/20867818-Modal-Sign-In
 
-
 ## Colors
+https://colorhunt.co/palette/f6f4eb91c8e4749bc24682a9
 
 ## Fonts
 <!-- <link rel="preconnect" href="https://fonts.googleapis.com">

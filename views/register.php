@@ -1,5 +1,5 @@
-<?php
-    include "../connection.php";
+<?php 
+    include "../backend/connection.php";
 ?>
 
 <html lang="en">
@@ -21,7 +21,7 @@
                     <h1>Create an account</h1>
                     <p>Already have an account? <a href="./index.php" class="link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Sign In</a></p>
                 </div>
-                <form action="sign_up.php" method="post">
+                <form action="user_registration.php" method="post">
                     <div class="w-100 container">
                         <div class="w-100 center row row-cols-2">
                             <div class="col mb-4">
