@@ -1,10 +1,10 @@
-<?php require 'partials/header.php' ?>
+<?php require 'app/Views/partials/header.php' ?>
 
 <div class="h-100 d-flex justify-content-center align-items-center">
     <div class="w-50 text-start box">
         <div class="text-center mb-4">
             <h1>Create an account</h1>
-            <p>Already have an account? <a href="./index.php" class="link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Sign In</a></p>
+            <p>Already have an account? <a href="<?= BASE_URL ?>" class="link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Sign In</a></p>
         </div>
         <form action="user_registration.php" method="post">
             <div class="w-100 container">
@@ -25,8 +25,8 @@
                     </div>
 
                     <div class="col mb-4">
-                        <label class="form-label" for="date-of-birth">Date of Birth</label>
-                        <input class="form-control" type="date" name="birthday" id="birthday">
+                        <label class="form-label" for="type">Username</label>
+                        <input class="form-control" type="text" name="type" id="type">
                     </div>
 
                     <div class="col mb-4">
@@ -48,4 +48,4 @@
     </div>
 </div>
 
-<?php require 'partials/footer.php' ?>
+<?php require 'app/Views/partials/footer.php' ?>

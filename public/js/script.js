@@ -1,5 +1,5 @@
 const submit = document.getElementById("submit-btn");
 
 function redirectLink() {
-    window.location.href = "./views/register.php"
+    window.location.href = "app/Views/register.php"
 }
